@@ -31,7 +31,7 @@ puts "There are #{letter_count} in #{big_word.length}"
 
 bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
 
-new_letter_count = bigger_word.size
+new_letter_count = bigger_word.size #{wow}
 
 puts "There are now #{new_letter_count} in #{bigger_word}"
 
@@ -39,7 +39,7 @@ puts "There are now #{new_letter_count} in #{bigger_word}"
 
 proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
 
-puts proper_sentence
+puts proper_sentence.capitalize
 
 # Challenge 7: String Switcheroo
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
