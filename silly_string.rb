@@ -21,11 +21,11 @@ puts lowercased_phrase.downcase
 
 # Challenge 4: Count how many letters are in that big_word
 
-big_word = "supercalifragilisticexpialidocious"
+big_word = "Happy"
 
 letter_count = big_word # Put a . after big_word and use a String method.
 
-puts "There are #{letter_count} in #{big_word}"
+puts "There are #{letter_count} in #{big_word}.length"
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
